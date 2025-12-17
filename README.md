@@ -7,7 +7,7 @@ This repository hosts a reproducible computational pipeline designed to analyze 
 The pipeline is organized into sequential, numbered scripts/notebooks (0–5) to ensure clear data flow and reproducibility. Below is a detailed breakdown of each core component:
 
 ![Multi-ROI Logistic Regression Workflow](https://github.com/hx03-info/BCAI-4-fMRI-Analysis/blob/main/results/Workflow%20of%20Multi-ROI%20Logestic%20Regression.jpg?raw=true)
-This pipeline uses fMRI-derived ROI voxel data, MLP compression, and weighted integration (via Sigmoid) to classify recall outcomes. Loss balances regularization/accuracy; a chart shows each ROI’s prediction contribution.
+                 This pipeline uses fMRI-derived ROI voxel data, MLP compression, and weighted integration (via Sigmoid) to classify recall outcomes. Loss balances regularization/accuracy; a chart shows each ROI’s prediction contribution.
 
 **`0_datapreprocess.ipynb`**
 Handles raw fMRI data preprocessing, including missing value handling and z-score normalization. It also filters trials (e.g., removing stimuli with low recall rates) to reduce unwanted variance and improve the reliability of downstream analyses.
