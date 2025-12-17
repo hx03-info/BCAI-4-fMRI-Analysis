@@ -31,14 +31,18 @@ Measures pattern fidelity by calculating the Pearson correlation between individ
 Extracts and summarizes key features from searchlight results, including cluster peaks, prediction accuracy metrics, and voxel-wise significance values. These outputs are formatted for downstream visualization and statistical reporting in manuscripts.
 
 
-Key Methods
+## Key Methods
 This pipeline combines two complementary MVPA frameworks to balance hypothesis-driven and data-driven discovery:
-ROI-based MVPA: Tests pre-specified anatomical regions (derived from the Harvard–Oxford atlas) to validate hypotheses about domain-specific memory processes, such as visual feature encoding (visual cortex) and episodic binding (hippocampus).
-Searchlight MVPA: Enables unbiased whole-brain mapping by sliding a small spherical kernel across the entire brain. This approach identifies unexpected voxel clusters—such as attention-related networks—that predict recall, avoiding pre-selection bias.
+- ROI-based MVPA: Tests pre-specified anatomical regions (derived from the Harvard–Oxford atlas) to validate hypotheses about domain-specific memory processes, such as visual feature encoding (visual cortex) and episodic binding (hippocampus).
+- 
+- Searchlight MVPA: Enables unbiased whole-brain mapping by sliding a small spherical kernel across the entire brain. This approach identifies unexpected voxel clusters—such as attention-related networks—that predict recall, avoiding pre-selection bias.‘
+  
 Both frameworks use L2-regularized logistic regression (optimized for high-dimensional fMRI data) and five-fold group cross-validation to ensure generalizability to new subjects.
-Expected Outputs
+
+
+## Expected Outputs
 Running the pipeline in sequential order (0 → 5) will generate the following core outputs:
-ROI-level prediction accuracy scores for individual brain regions and the integrated multi-region model.
-Whole-brain statistical maps (searchlight results) highlighting voxel clusters that significantly predict recall success.
-Pattern fidelity scores comparing recalled vs. non-recalled trials, linking neural stability to memory performance.
-Summary figures and tables (e.g., ROI contribution weights, cluster peak coordinates) formatted for academic manuscript submission.
+- ROI-level prediction accuracy scores for individual brain regions and the integrated multi-region model.
+- Whole-brain statistical maps (searchlight results) highlighting voxel clusters that significantly predict recall success.
+- Pattern fidelity scores comparing recalled vs. non-recalled trials, linking neural stability to memory performance.
+- Summary figures and tables (e.g., ROI contribution weights, cluster peak coordinates) formatted for academic manuscript submission.
