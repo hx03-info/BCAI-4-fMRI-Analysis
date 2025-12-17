@@ -1,0 +1,13 @@
+numpy
+h5py
+pandas
+scipy
+scikit-learn
+nilearn
+nibabel
+tqdm
+matplotlib
+tensorflow
+seaborn
+xlrd
+statsmodels
