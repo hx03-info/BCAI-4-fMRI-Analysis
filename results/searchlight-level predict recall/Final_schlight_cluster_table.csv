@@ -1,0 +1,10 @@
+,Cluster ID,X,Y,Z,Peak Stat,Cluster Size (mm3),roi_label
+0,1,24.75,-79.75,20.0,4.9851117,816,"Lateral Occipital Cortex, superior division"
+1,1a,24.75,-85.25,12.0,4.123409,,Right Cerebral White Matter
+2,1b,22.0,-71.5,24.0,4.05709,,Right Cerebral White Matter
+3,2,33.0,-44.0,12.0,4.8313217,847,Right Cerebral White Matter
+4,2a,35.75,-46.75,4.0,4.45992,,Right Cerebral White Matter
+5,3,-49.5,16.5,36.0,4.208428,302,Middle Frontal Gyrus
+6,4,60.5,8.25,24.0,4.069754,302,Precentral Gyrus
+7,4a,60.5,-2.75,32.0,3.7590187,,Precentral Gyrus
+8,5,-44.0,-41.25,52.0,4.058227,363,Superior Parietal Lobule

@@ -1,0 +1,7 @@
+,Cluster ID,X,Y,Z,Peak Stat,Cluster Size (mm3),roi_label
+0,1,22.0,-66.0,-12.0,5.0705705,2147,Occipital Fusiform Gyrus
+1,2,52.25,-63.25,32.0,4.9259796,1633,"Lateral Occipital Cortex, superior division"
+2,3,13.75,-68.75,16.0,4.471462,3025,Intracalcarine Cortex
+3,3a,2.75,-96.25,0.0,4.275936,,Occipital Pole
+4,3b,13.75,-79.75,8.0,3.5063522,,Intracalcarine Cortex
+5,4,55.0,-35.75,-4.0,4.1708026,665,"Middle Temporal Gyrus, posterior division"
